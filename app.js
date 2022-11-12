@@ -26,15 +26,15 @@
         //$scope.lengtharr=c;
         if(c==0)
         {
-            $scope.finalMsg="Please enter data first";
+            $scope.finalMsg="Please enter data first in box";
         }
         else if(lengthOfString>0&&lengthOfString<=3)
         {
-            $scope.finalMsg="Enjoy!";
+            $scope.finalMsg="Enjoy! man";
         }
         else
         {
-            $scope.finalMsg="Too Much!";
+            $scope.finalMsg="that is Too Much!";
         }
         
         };
